@@ -1,0 +1,9 @@
+- I'm creating this MM for my OS used globally (flat memory model).
+
+I need to know where the chunk of free memory is you can play with. 
+
+For a flat memory model, it can be at the end of my kernel code (say the 1/2MB mark) to the end of the system memory 
+For a paging kernel, this can be the beginning of the page to the end of the page. 
+
+https://wiki.osdev.org/Writing_a_memory_manager
+
